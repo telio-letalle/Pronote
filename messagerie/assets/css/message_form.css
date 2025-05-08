@@ -1,0 +1,196 @@
+/* --- FORMULAIRES SPÉCIFIQUES AUX MESSAGES --- */
+
+/* Classes spécifiques */
+.class-icon {
+    background-color: #4A6572;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+    color: #212529;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* --- MULTISELECT SEARCH --- */
+.multiselect-container {
+    position: relative;
+}
+
+.search-box {
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.recipient-category {
+    margin-bottom: 10px;
+}
+
+.category-title {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.recipient-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.recipient-item {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.recipient-item:hover {
+    background-color: #f0f3f8;
+}
+
+.recipient-item input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.selected-recipients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+    min-height: 35px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.recipient-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #e9ecef;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.remove-tag {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* --- OPTIONS DE CIBLE --- */
+.target-options {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.target-classes {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.class-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.class-item input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* --- OPTIONS DE MESSAGE --- */
+.options-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+    .options-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .form-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .form-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+/* Icônes spéciales */
+.form-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.form-icon.message {
+    background-color: #009b72;
+}
+
+.form-icon.announcement {
+    background-color: #ffc107;
+}

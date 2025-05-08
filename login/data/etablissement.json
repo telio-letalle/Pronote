@@ -1,0 +1,33 @@
+{
+  "classes": {
+    "college": {
+      "sixieme": ["6A", "6B", "6C", "6D"],
+      "cinquieme": ["5A", "5B", "5C", "5D"],
+      "quatrieme": ["4A", "4B", "4C", "4D"],
+      "troisieme": ["3A", "3B", "3C", "3D"]
+    },
+    "lycee": {
+      "seconde": ["2A", "2B", "2C", "2D"],
+      "premiere": ["1G1", "1G2", "1G3", "1STI2D", "1STMG"],
+      "terminale": ["TG1", "TG2", "TG3", "TSTI2D", "TSTMG"]
+    }
+  },
+  "matieres": [
+    {"code": "MATH", "nom": "Mathématiques"},
+    {"code": "FRAN", "nom": "Français"},
+    {"code": "ANG", "nom": "Anglais"},
+    {"code": "ESP", "nom": "Espagnol"},
+    {"code": "ALL", "nom": "Allemand"},
+    {"code": "HG", "nom": "Histoire-Géographie"},
+    {"code": "PC", "nom": "Physique-Chimie"},
+    {"code": "SVT", "nom": "Sciences de la Vie et de la Terre"},
+    {"code": "EPS", "nom": "Éducation Physique et Sportive"},
+    {"code": "ART", "nom": "Arts Plastiques"},
+    {"code": "MUS", "nom": "Musique"},
+    {"code": "TECH", "nom": "Technologie"},
+    {"code": "SES", "nom": "Sciences Économiques et Sociales"},
+    {"code": "PHIL", "nom": "Philosophie"},
+    {"code": "NSI", "nom": "Numérique et Sciences Informatiques"},
+    {"code": "SI", "nom": "Sciences de l'Ingénieur"}
+  ]
+}
