@@ -1,0 +1,90 @@
+/* Remplacer les couleurs vertes par le bleu de la page d'accueil */
+
+/* Modification de la couleur principale */
+.sidebar {
+  background-color: #0f4c81; /* Bleu de la page d'accueil au lieu du vert */
+}
+
+.app-logo {
+  color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.create-button {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.create-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.view-toggle-option.active {
+  background-color: #e0eaf4; /* Bleu clair au lieu de vert clair */
+  color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.mini-calendar-day.today {
+  background-color: white;
+  color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.apply-button {
+  background-color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.apply-button:hover {
+  background-color: #0d3d6a; /* Version plus foncée */
+}
+
+.today .calendar-day-number {
+  background-color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.color-cours { 
+  background-color: #0f4c81; /* Bleu au lieu du vert */ 
+}
+
+.event-cours { 
+  background-color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.btn-primary {
+  background-color: #0f4c81; /* Bleu au lieu du vert */
+}
+
+.btn-primary:hover {
+  background-color: #0d3d6a; /* Version plus foncée du bleu */
+}
+
+/* Style pour les liens dans Autres Modules comme dans accueil.php */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-nav-item {
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.sidebar-nav-item:hover, .sidebar-nav-item.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.sidebar-nav-icon {
+  margin-right: 10px;
+  width: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Masquer l'ancien style de menu */
+.module-link {
+  display: none;
+}
