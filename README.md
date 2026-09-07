@@ -2,6 +2,8 @@
 
 Bienvenue dans le projet Pronote, une application web complète de gestion scolaire inspirée du célèbre logiciel Pronote. Cette application permet de gérer les notes, absences, cahiers de textes, messagerie et agenda dans un établissement scolaire de manière sécurisée et centralisée.
 
+###### Cette application a été volontairement vibe-codé dans l'objectif d'apprendre la dynamique d'un nouveau langage, le PHP. 
+
 ## Table des matières
 
 1. [Prérequis](#prérequis)
